@@ -11,6 +11,7 @@ import {
   type Best,
   type Bests,
 } from './storage';
+import { BuildHouseDailyAd } from './BuildHouseDailyAd';
 import { click } from './sound';
 
 type Mode = 'free' | 'daily';
@@ -247,6 +248,8 @@ export default function App() {
           this browser only, and nothing leaves your device.
         </p>
       </main>
+
+      <BuildHouseDailyAd />
 
       <footer className="footer">
         Part of <a href="https://www.cordoval.co.uk">Cordoval</a>. Local first software.

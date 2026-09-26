@@ -289,8 +289,27 @@ a:focus-visible {
   line-height: 1.5;
 }
 
+.build-house-daily-ad {
+  width: 100%;
+  max-width: min(960px, 100%);
+  margin: 24px auto 0;
+}
+
+.build-house-daily-ad a {
+  display: block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  line-height: 0;
+}
+
+.build-house-daily-ad img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .footer {
-  margin-top: 24px;
+  margin-top: 16px;
   font-size: 0.8rem;
   color: var(--muted);
   text-align: center;
